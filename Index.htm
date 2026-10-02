@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic-Tac-Toe | VOSC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+    </div>
+
+    <main class="game-container">
+
+        <div class="header">
+            <p class="tag">VOSC ACTIVITY</p>
+
+            <h1>Tic-Tac-Toe</h1>
+
+            <p class="subtitle">
+                Classic game. Modern experience.
+            </p>
+        </div>
+
+        <div class="players">
+
+            <div class="player">
+                <div class="symbol x-symbol">X</div>
+
+                <div>
+                    <p>PLAYER 1</p>
+                    <strong>X</strong>
+                </div>
+            </div>
+
+            <div class="vs">VS</div>
+
+            <div class="player">
+                <div class="symbol o-symbol">O</div>
+
+                <div>
+                    <p>PLAYER 2</p>
+                    <strong>O</strong>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="turn">
+            <span class="turn-dot"></span>
+            <span id="status">Player X's Turn</span>
+        </div>
+
+        <div class="board">
+
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+
+            <button class="cell"></button>
+            <button class="cell"></button>
+            <button class="cell"></button>
+
+        </div>
+
+        <button id="restart">
+            ↻ &nbsp; New Game
+        </button>
+
+        <p class="footer">
+            Built with HTML • CSS • JavaScript
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
